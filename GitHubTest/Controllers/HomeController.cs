@@ -20,6 +20,7 @@ namespace GitHubTest.Controllers
 
         public IActionResult Index()
         {
+            var val = "Geerthan";
             return View();
         }
 
